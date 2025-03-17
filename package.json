@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "fast": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -22,6 +23,7 @@
     "apexcharts": "^4.5.0",
     "autoprefixer": "^10.4.21",
     "flatpickr": "^4.6.13",
+    "lucide-react": "^0.482.0",
     "next": "15.2.2",
     "react": "^19.0.0",
     "react-apexcharts": "^1.7.0",
@@ -34,16 +36,26 @@
     "tailwind-merge": "^3.0.2"
   },
   "devDependencies": {
-    "@eslint/eslintrc": "^3",
+    "@eslint/compat": "^1.2.7",
+    "@eslint/eslintrc": "^3.3.0",
+    "@eslint/js": "^9.22.0",
     "@svgr/webpack": "^8.1.0",
     "@types/node": "^22",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "@types/react-flatpickr": "^3.8.11",
     "@types/react-transition-group": "^4.4.12",
-    "eslint": "^9",
+    "@typescript-eslint/eslint-plugin": "^8.26.1",
+    "@typescript-eslint/parser": "^8.26.1",
+    "eslint": "^9.22.0",
     "eslint-config-next": "15.2.2",
+    "eslint-config-prettier": "^10.1.1",
+    "eslint-plugin-next": "^0.0.0",
+    "eslint-plugin-prettier": "^5.2.3",
+    "eslint-plugin-react-hooks": "^5.2.0",
     "postcss": "^8",
+    "prettier": "^3.5.3",
+    "prettier-plugin-tailwindcss": "^0.6.11",
     "tailwindcss": "^4.0.14",
     "typescript": "^5"
   }
