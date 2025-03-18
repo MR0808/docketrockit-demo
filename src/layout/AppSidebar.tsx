@@ -11,7 +11,8 @@ import {
     BriefcaseBusiness,
     LinkIcon,
     ChevronDownIcon,
-    Ellipsis
+    Ellipsis,
+    FileText
 } from "lucide-react";
 
 import logo from "../../public/images/logo/logo.png";
@@ -42,11 +43,15 @@ const navItems: NavItem[] = [
         name: "Users",
         path: "/users"
     },
-
     {
         name: "Business Details",
         icon: <BriefcaseBusiness />,
         path: "/business"
+    },
+    {
+        name: "Invoices",
+        icon: <FileText />,
+        path: "/invoices"
     },
     {
         name: "Integration Settings",
