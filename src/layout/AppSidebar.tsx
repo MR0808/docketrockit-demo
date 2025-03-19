@@ -8,8 +8,6 @@ import {
     GridIcon,
     TableProperties,
     UserCircleIcon,
-    BriefcaseBusiness,
-    LinkIcon,
     ChevronDownIcon,
     Ellipsis,
     FileText
@@ -44,19 +42,9 @@ const navItems: NavItem[] = [
         path: "/users"
     },
     {
-        name: "Business Details",
-        icon: <BriefcaseBusiness />,
-        path: "/business"
-    },
-    {
         name: "Invoices",
         icon: <FileText />,
         path: "/invoices"
-    },
-    {
-        name: "Integration Settings",
-        icon: <LinkIcon />,
-        path: "/integration"
     }
 ];
 
